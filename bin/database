@@ -1,0 +1,10 @@
+CREATE TABLE clube (
+    id_clube integer not null PRIMARY KEY AUTO_INCREMENT,
+    receita double,
+    gastos double,
+    bilheteria double,
+    serie varchar(2),
+    posicao varchar(2),
+    presidente varchar(25),
+    tecnico varchar(25)
+    );
